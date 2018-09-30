@@ -1,7 +1,6 @@
 # State Server!
 
-Vistar serves up a mound of geospatial data both internally and to third
-parties. What we need is a server to tell us which state, if any, a point is in.
+What we need is a server to tell us which state, if any, a point is in.
 Some simplified geometries are included in states.json (so greatly simplified,
 that some of the smaller ones disappear).
 
