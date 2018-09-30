@@ -11,11 +11,13 @@ correct.
 ## Expected Behavior (Modified)
 
 ### Please have npm and nodejs installed in your system.
+```
   $ npm i
   $ node state-server.js
     Port opened at 8080!
   $ curl  -d "longitude=-77.036133&latitude=40.513799" http://localhost:8080/
     Pennsylvania
+```
 
 ## Notes
 
@@ -29,11 +31,17 @@ know. A Makefile never hurt anyone.
 
 ## Some test datasets
 
+```
 $ curl  -d "longitude=-118.636440&latitude=36.207361" http://localhost:8080/
+```
 This should return "California"
 
+```
 $ curl  -d "longitude=-101.243205&latitude=31.479553" http://localhost:8080/
+```
 This should return "Texas"
 
+```
 $ curl  -d "longitude=-74.984396&latitude=42.552404" http://localhost:8080/
+```
 This should return "New York"
